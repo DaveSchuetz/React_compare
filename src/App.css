@@ -1,0 +1,64 @@
+body{
+    width: 1200px;
+    margin: 5px auto;
+    background-color: antiquewhite;
+}
+header {
+    background-image: url(./images/aerial-shot-buildings-city-2124702.jpg);
+    background-color: black;
+    color: antiquewhite;
+    text-align: right;
+    padding: 3px 20px;
+    text-shadow:1px 1px black;
+}
+.title-author{
+    text-align: center;
+}
+h2{
+    margin-bottom: 2px;
+}
+h5{
+    margin-top: 2px;
+}
+.lead-img{
+    height: 200px;
+    border: 2px solid #f0f0f0;
+    box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
+    margin: 10px 10px 5px 5px;
+    float: left;
+}
+.art-img{
+    height: 100px;
+    border: 2px solid #f0f0f0;
+    box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
+    margin: 10px 10px 5px 5px;
+    float: left;
+}
+.article:first-letter{
+    font-weight: 900;
+    float: left;
+    font-size: 290%;
+    letter-spacing: 3px;
+}
+button{
+    border-radius: 10%;
+    margin: 3px;
+    height: 22px;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: antiquewhite;
+}
+.secondary{
+    display: flex;
+}
+.item-a{
+    margin-right: 5px;
+    width: 50%;
+}
+.item-b{
+    margin-left: 5px;
+    width: 50%;
+}
